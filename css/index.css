@@ -139,4 +139,50 @@ body {
   width: 100%;
   margin: 0 auto;
   height: 100vh;
+  z-index: 1000;
+  position: relative;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+  z-index: 2000;
+  width: 100%;
+  font-family: 'Staatliches', cursive;
+  position: fixed;
+  font-size: 20px;
+  height: 20px;
+}
+.navContainer a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0%;
+  height: 50px;
+  margin: 20px auto;
+  width: 80%;
+  z-index: 1200;
+}
+.footer a {
+  height: 20px;
+}
+.container {
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .slogan {
+  margin-top: 300px;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  z-index: 100;
+  position: absolute;
+  font-size: 75px;
 }
