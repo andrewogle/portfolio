@@ -186,3 +186,16 @@ body {
   position: absolute;
   font-size: 75px;
 }
+.container .PfContainer {
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 450px;
+}
+.container .PfContainer .portfolio {
+  width: 50%;
+  overflow: hidden;
+}
+.container .PfContainer .portfolio img {
+  width: 100%;
+}
