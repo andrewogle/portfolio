@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andrewogle/portfolio.git",
+  "author": "Andrew <andrewryanogle@gmail.com>",
+  "license": "MIT"
+}
