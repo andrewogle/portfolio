@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/andrewogle/portfolio.git",
   "author": "Andrew <andrewryanogle@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react-router-dom": "^5.0.0",
+    "styled-components": "^4.2.0"
+  }
 }

@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Route} from 'react-router-dom';
+import styled from 'styled-components';
+import NavBar from './components/NavBar.js';
+import Home from './components/Home.js';
+
 
 function App() {
+  const AppContainer = styled.div`
+    display: flex;
+    margin: 0;
+  `
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <AppContainer>
+     <Route path = '/' component = {NavBar} />
+     <Route exact path = '/' component = {Home} />
+     </AppContainer>
     </div>
   );
 }
