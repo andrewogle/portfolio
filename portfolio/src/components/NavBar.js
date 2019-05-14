@@ -1,5 +1,5 @@
 import React from "react";
-import navImage from '../images/navImage.jpg';
+import navImage from '../images/navImage2.jpg';
 import styled from 'styled-components';
 
 const Nav = styled.nav`
@@ -17,14 +17,15 @@ const Nav = styled.nav`
     
 `;
 const NavLinks = styled.div`
-    color: black;
+    color: #f7f9cf;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 50px;
 `;
 const Tagline = styled.div`
-    color: white;
+    color: #eded23;
     font-family: 'Roboto Slab', serif;
     padding-top: 100px;
+    font-size: 20px;
 `;
 const NavBar = props => {
   return (

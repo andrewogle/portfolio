@@ -9,8 +9,8 @@ const Home = () => {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #d6d4d5;
-    background-color: #dbe8ff;
+   
+    background-color: #efefea;
     font-size: 16px;
   `;
   return (
