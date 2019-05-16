@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom';
 import styled from 'styled-components';
 import NavBar from './components/NavBar.js';
 import Home from './components/Home.js';
-
+import Skills from './components/Skills'
 
 function App() {
   const AppContainer = styled.div`
@@ -15,6 +15,7 @@ function App() {
     <AppContainer>
      <Route path = '/' component = {NavBar} />
      <Route exact path = '/' component = {Home} />
+     <Route exact path = '/skills' component = {Skills} />
      </AppContainer>
     </div>
   );
