@@ -6,6 +6,7 @@
   "author": "Andrew <andrewryanogle@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "react-router-dom": "^5.0.0",
     "react-spring": "^8.0.20",
     "styled-components": "^4.2.0"

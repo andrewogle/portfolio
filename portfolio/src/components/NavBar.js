@@ -11,8 +11,6 @@ const Nav = styled.nav`
   background-attachment: fixed;
   height: 100vh;
   width: 35%;
-
-  margin: auto;
   text-align: center;
 `;
 const NavLinks = styled.div`
@@ -60,8 +58,8 @@ const NavBar = props => {
         <Link to={"/skills"}>Skills</Link>
       </NavLinks>
       <NavLinks>
-      <i class="fas fa-envelope"></i>
-      <Link to={"/Contact"}>Contact</Link>
+        <i class="fas fa-envelope" />
+        <Link to={"/Contact"}>Contact</Link>
       </NavLinks>
     </Nav>
   );

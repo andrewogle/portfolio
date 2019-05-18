@@ -1,21 +1,34 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import { Transition } from "react-spring/renderprops";
 
-const Skills = (props) => {
-    const skillsContainer = styled.div`
+const Skills = props => {
+  const Container = styled.div`
     width: 60%;
     font-family: "Crimson Text", serif;
     padding: 33px;
+    background-color: #efefea;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-    background-color: #efefea;
-    font-size: 16px;
+    align-items:center;
   `;
-    return ( 
-        <skillsContainer>
-            <ul>
+
+  return (
+    <Container>
+      <Transition
+        items={Skills}
+        from={{ opacity: 0, transform: "translate3d(100%,0,0)" }}
+        enter={{ opacity: 1, transform: "translate3d(0%,0,0)" }}
+        leave={{ opacity: 0, transform: "translate3d(-50%,0,0)" }}
+      >
+        {show =>
+          show &&
+          (props => (
+            <div style={props}>
+            <h1>Skills:</h1>
+              <ul>
                 <li>React</li>
                 <li>Redux</li>
                 <li>React-Router-Dom</li>
@@ -25,9 +38,13 @@ const Skills = (props) => {
                 <li>CSS</li>
                 <li>LESS</li>
                 <li>HTML</li>
-            </ul>
-        </skillsContainer>
-     );
-}
- 
+              </ul>
+            </div>
+          ))
+        }
+      </Transition>
+    </Container>
+  );
+};
+
 export default Skills;

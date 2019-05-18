@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import NavBar from './components/NavBar.js';
 import Home from './components/Home.js';
 import Skills from './components/Skills'
+import Contact from './components/Contact.js';
 
 function App() {
   const AppContainer = styled.div`
@@ -16,6 +17,7 @@ function App() {
      <Route path = '/' component = {NavBar} />
      <Route exact path = '/' component = {Home} />
      <Route exact path = '/skills' component = {Skills} />
+     <Route exact path = '/contact' component = {Contact} />
      </AppContainer>
     </div>
   );
