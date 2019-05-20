@@ -13,14 +13,13 @@ position:fixed;
   height: 100vh;
   width: 25%;
   text-align: center;
-  @media(max-width: 500px){
-      width:100vw;
-  }
+
 `;
 const NavLinks = styled.div`
   color: #f7f9cf;
   font-family: "Ubuntu", sans-serif;
   margin-top: 50px;
+  
   a {
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;

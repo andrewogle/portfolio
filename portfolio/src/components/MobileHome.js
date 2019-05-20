@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Transition } from "react-spring/renderprops";
 
-const Home = () => {
+const MobileHome = () => {
   const Container = styled.div`
-    width: 75%;
+   
     font-family: "Crimson Text", serif;
     padding: 33px;
     display: flex;
@@ -14,20 +14,14 @@ const Home = () => {
     background-color: #efefea;
     font-size: 16px;
 
-    position: fixed;
-    left: 25vw;
-    height: 100vh;
-    @media (max-width: 500px) {
-      position: relative;
-      height: auto;
-      left: 0;
-      width: 80vw;
-    }
+
+   
+   
   `;
   return (
     <Container>
       <Transition
-        items={Home}
+        items={MobileHome}
         from={{ opacity: 0, transform: "translate3d(100%,0,0)" }}
         enter={{ opacity: 1, transform: "translate3d(0%,0,0)" }}
         leave={{ opacity: 0, transform: "translate3d(-50%,0,0)" }}
@@ -56,4 +50,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MobileHome;

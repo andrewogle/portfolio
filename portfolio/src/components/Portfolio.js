@@ -16,6 +16,9 @@ const Portfolio = (props) => {
     align-items:center;
     border-radius:10px;
     margin:10px;
+    @media(max-width: 500px){
+        width:80%;
+    }
     img{
         width:60%
     }
