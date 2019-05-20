@@ -4,7 +4,7 @@ import { Transition } from "react-spring/renderprops";
 
 const Skills = props => {
   const Container = styled.div`
-    width: 60%;
+    width: 75%;
     font-family: "Crimson Text", serif;
     padding: 33px;
     background-color: #efefea;
@@ -13,6 +13,10 @@ const Skills = props => {
     flex-direction: column;
     justify-content: center;
     align-items:center;
+
+    position: fixed;
+      left: 25vw;
+      height: 100vh;
   `;
 
   return (

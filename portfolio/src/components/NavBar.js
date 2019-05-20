@@ -4,14 +4,18 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Nav = styled.nav`
+position:fixed;
   background-image: url(${navImage});
   background-size: 100%;
   background-repeat: none;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  width: 35%;
+  width: 25%;
   text-align: center;
+  @media(max-width: 500px){
+      width:100vw;
+  }
 `;
 const NavLinks = styled.div`
   color: #f7f9cf;
@@ -50,15 +54,15 @@ const NavBar = props => {
         <Link to={"/"}>Home</Link>
       </NavLinks>
       <NavLinks>
-        <i class="fas fa-images" />
+        <i className="fas fa-images" />
         <Link to={"/portfolio"}>Portfolio</Link>
       </NavLinks>
       <NavLinks>
-        <i class="fas fa-toolbox" />
+        <i className="fas fa-toolbox" />
         <Link to={"/skills"}>Skills</Link>
       </NavLinks>
       <NavLinks>
-        <i class="fas fa-envelope" />
+        <i className="fas fa-envelope" />
         <Link to={"/Contact"}>Contact</Link>
       </NavLinks>
     </Nav>

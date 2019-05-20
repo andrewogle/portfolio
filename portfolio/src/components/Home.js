@@ -4,7 +4,7 @@ import { Transition } from "react-spring/renderprops";
 
 const Home = () => {
   const Container = styled.div`
-    width: 60%;
+    width: 75%;
     font-family: "Crimson Text", serif;
     padding: 33px;
     display: flex;
@@ -13,6 +13,10 @@ const Home = () => {
 
     background-color: #efefea;
     font-size: 16px;
+
+    position: fixed;
+      left: 25vw;
+      height: 100vh;
   `;
   return (
     <Container>
