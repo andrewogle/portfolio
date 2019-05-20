@@ -20,7 +20,7 @@ class PortfolioContainer extends Component {
             "This was the first project that I worked on as a member of a team. We were given two weeks to build a system for schools in rual areas to report supply issues. I was the teams front end engineer. The technologies that I used were, react, redux, react-router, axios, Less/css ",
           projectLink:
             "https://github.com/pt-pilot-buildweek-rural-school-report/irsr-web-app/tree/andrew-ogle",
-          webPage: "#"
+          webPage: "https://international-rural-school-report.netlify.com"
         },
         {
           source: bubl,
