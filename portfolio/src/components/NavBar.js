@@ -10,6 +10,7 @@ position:fixed;
   background-repeat: none;
   background-position: center;
   background-attachment: fixed;
+  background-color:black;
   height: 100vh;
   width: 25%;
   text-align: center;

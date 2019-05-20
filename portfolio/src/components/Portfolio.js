@@ -6,6 +6,7 @@ import styled from "styled-components";
 const Portfolio = (props) => {
     const Project = styled.div`
     width: 25%;
+    height: 350px;
     font-family: "Crimson Text", serif;
     padding: 33px;
     background-color: lightgrey;
@@ -16,7 +17,7 @@ const Portfolio = (props) => {
     align-items:center;
     border-radius:10px;
     margin:10px;
-    @media(max-width: 500px){
+    @media(max-width: 700px){
         width:80%;
     }
     img{

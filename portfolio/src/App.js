@@ -16,13 +16,13 @@ function App() {
   const AppContainer = styled.div`
     display: flex;
     margin: 0;
-    @media(max-width: 500px){
+    @media(max-width: 700px){
      display:none;
     }
   `
   const MobileApp = styled.div`
    display: none;
-   @media(max-width: 500px){
+   @media(max-width: 700px){
      display: block;
     }
   `

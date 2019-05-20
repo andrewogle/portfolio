@@ -15,6 +15,7 @@ const Tagline = styled.div`
   background-repeat: none;
   background-position: center;
   background-attachment: fixed;
+  background-color:black;
   text-align: center;
  
 `;

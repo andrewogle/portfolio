@@ -4,7 +4,7 @@ import { Transition } from "react-spring/renderprops";
 
 const Home = () => {
   const Container = styled.div`
-    width: 75%;
+    
     font-family: "Crimson Text", serif;
     padding: 33px;
     display: flex;
@@ -17,7 +17,7 @@ const Home = () => {
     position: fixed;
     left: 25vw;
     height: 100vh;
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
       position: relative;
       height: auto;
       left: 0;
