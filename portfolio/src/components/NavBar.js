@@ -12,7 +12,7 @@ position:fixed;
   background-attachment: fixed;
   background-color:black;
   height: 100vh;
-  width: 25%;
+  width: 25%;+
   text-align: center;
 
 `;

@@ -17,7 +17,7 @@ class PortfolioContainer extends Component {
           source: irsr,
           altText: "international rual school report",
           blurb:
-            "This was the first project that I worked on as a member of a team. We were given two weeks to build a system for schools in rual areas to report supply issues. I was the teams front end engineer. The technologies that I used were, react, redux, react-router, axios, Less/css ",
+            "This was the first project that I worked on as a member of a team. We were given two weeks to build a system for schools in rual areas to report supply issues. I was the teams front end engineer. The technologies that I used were, react, redux, react-router, axios, Less/css. The username is: Andrew and the password is: flamingo ",
           projectLink:
             "https://github.com/pt-pilot-buildweek-rural-school-report/irsr-web-app/tree/andrew-ogle",
           webPage: "https://international-rural-school-report.netlify.com"
